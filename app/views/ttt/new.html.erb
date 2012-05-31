@@ -1,0 +1,25 @@
+<% provide(:title, 'New') %>
+
+<h1>New TTT Game</h1>
+
+<div id="form-wrap">
+
+  <%= form_tag do %>
+
+    <div class="field">
+      <%= label_tag :player_name %>
+      <%= text_field_tag :player_name %>
+    </div>
+
+    <div class="field">
+      <%= label_tag :turn %>
+      <%= text_field_tag :turn %>
+    </div>
+
+    <br/>
+
+    <%= submit_tag "Start" %>
+
+  <% end %>
+
+</div>

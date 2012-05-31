@@ -1,0 +1,35 @@
+<div class="ttt_board">
+  <div class="top_row">
+    <a href="/ttt/move/0">
+      <%= session[:board][0] if session[:board][0] != " " %>
+    </a>
+    <a href="/ttt/move/1">
+      <%= session[:board][1] if session[:board][1] != " " %>
+    </a>
+    <a href="/ttt/move/2">
+      <%= session[:board][2] if session[:board][2] != " " %>
+    </a>
+  </div>
+  <div class="mid_row">
+    <a href="/ttt/move/3">
+      <%= session[:board][3] if session[:board][3] != " " %>
+    </a>
+    <a href="/ttt/move/4">
+      <%= session[:board][4] if session[:board][4] != " " %>
+    </a>
+    <a href="/ttt/move/5">
+      <%= session[:board][5] if session[:board][5] != " " %>
+    </a>
+  </div>
+  <div class="bottom_row">
+    <a href="/ttt/move/6">
+      <%= session[:board][6] if session[:board][6] != " " %>
+    </a>
+    <a href="/ttt/move/7">
+      <%= session[:board][7] if session[:board][7] != " " %>
+    </a>
+    <a href="/ttt/move/8">
+      <%= session[:board][8] if session[:board][8] != " " %>
+    </a>
+  </div>
+</div>
